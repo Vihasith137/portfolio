@@ -31,12 +31,37 @@
 <p><strong>GitHub:</strong> <a href="https://github.com/Vihasith137/" rel="noopener" target="_blank">https://github.com/Vihasith137/</a></p>
 <p><strong>Location:</strong> Ohio, USA</p>
 <hr/>
-<form accept-charset="UTF-8" action="https://formspree.io/f/XXXXXXXX" method="POST">
-<div class="field"><label>Name<input name="name" required=""/></label></div>
-<div class="field"><label>Email<input name="email" required="" type="email"/></label></div>
-<div class="field"><label>Message<textarea name="message" required="" rows="5"></textarea></label></div>
-<button type="submit">Send Message</button>
+<form action="https://formspree.io/f/meororvn" method="POST" accept-charset="UTF-8">
+  <!-- Shown as the email subject in your inbox -->
+  <input type="hidden" name="_subject" value="Portfolio contact — vihasith137.github.io/portfolio">
+
+  <!-- Redirect after success (optional; create this page or change the URL) -->
+  <input type="hidden" name="_next" value="https://vihasith137.github.io/portfolio/thank-you.html">
+
+  <!-- Honeypot to reduce spam -->
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+
+  <div class="field">
+    <label for="name">Name</label>
+    <input id="name" name="name" required>
+  </div>
+
+  <div class="field">
+    <label for="email">Email</label>
+    <input id="email" type="email" name="email" required>
+  </div>
+
+  <div class="field">
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+  </div>
+
+  <!-- Helps Formspree set Reply-To correctly (optional; your 'email' field also works) -->
+  <input type="hidden" name="_replyto" value="">
+
+  <button type="submit">Send Message</button>
 </form>
+
 </div>
 </section>
 
