@@ -49,22 +49,21 @@ This site highlights:
 ├── experience.html
 ├── projects.html
 ├── contact.html
-├── thank-you.html              # optional
+├── thank-you.html              
 └── assets/
     ├── css/
     │   ├── style.css           # main styles
     │   ├── style.mobile.css    # mobile improvements (included after style.css)
     │   └── style.a11y.css      # accessibility helpers
     ├── js/
-    │   └── mobile.js           # (optional) hamburger toggle if used
+    │   └── mobile.js           
     └── img/
         ├── profile@1x.webp     # desktop hero/about
         ├── profile@2x.webp
         ├── og-card.png         # social preview image
-        └── logos/...           # org logos (optional)
+        └── logos/...           # org logos 
 ```
 
-> If you don’t use `style.mobile.css` or `style.a11y.css`, remove their `<link>` tags from pages.
 
 ---
 
