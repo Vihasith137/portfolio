@@ -1,4 +1,4 @@
-# Vihasith — Portfolio
+# Vihasith Rasala Portfolio
 
 A clean, mobile‑first portfolio for **Data Engineer · Data Analyst · Database Developer · BI Developer** roles.  
 Built as a static website (HTML/CSS/JS) and published via **GitHub Pages**.
