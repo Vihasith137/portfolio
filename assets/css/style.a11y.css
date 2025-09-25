@@ -1,0 +1,11 @@
+
+/* Accessibility improvements (non-intrusive) */
+:root{ --focus-ring: 0 0 0 3px rgba(124,156,255,.48); }
+a:focus, button:focus, input:focus, textarea:focus { outline: none; box-shadow: var(--focus-ring); }
+a, button { min-height: 44px; }
+.sub, .muted { color: #c9d0f5 !important; }
+.skip-link { position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
+.skip-link:focus { position:fixed; left:12px; top:12px; padding:10px 14px; background:#0e1634; color:#fff; border:1px solid rgba(255,255,255,.2); border-radius:10px; z-index:9999; }
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration:.01ms !important; animation-iteration-count:1 !important; transition-duration:.01ms !important; scroll-behavior:auto !important; }
+}
